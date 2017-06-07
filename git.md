@@ -20,6 +20,9 @@ git stash stash@{2}のように名前を指定すればそれを適用
 applyオプションは、スタックに退避した作業を再度適用するだけで、スタックにはまだその作業が残ったままになる
 よってスタックから削除するには、git stash dropに削除したい作業の名前を指定して実行(指定しなければ直前の内容を削除）
 
+
+### config-memo
+
 ```sh
 git config --local user.name NAME
 git config --local user.email EMAIL@hogehoge.com
