@@ -6,8 +6,8 @@ http://yuheikagaya.hatenablog.jp/entry/2014/01/19/235957
 ## php-memo
 
 html内に直接書けたりする
-開始タグ<?php
-終了タグ?>
+開始タグ`<?php`
+終了タグ`?>`
 
 
 ```php
@@ -26,13 +26,6 @@ echo "hogehoge"
 ```
 
 みたいに書く
-
-// コメント
-* コメント
-/*
-コメント
-コメント
-*/
 
 `php -S 172.25.50.109:8000`　で built-in web server 建てることができる
 
@@ -108,9 +101,13 @@ if, elseif, else
 
 ### falseになる場合
 文字列: 空、"0"
+
 数値: 0, 0.0
+
 論理値: false
+
 配列: 要素の数が０
+
 null
 
 三項演算子も使える
