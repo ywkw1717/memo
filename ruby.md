@@ -16,3 +16,11 @@ $ ./configure
 $ make
 $ sudo make install
 ```
+
+.localにインストールする場合
+```sh
+$ ./configure --prefix=/home/hogehoge/.local
+$ make
+$ make install
+```
+PATHを通しておわり
