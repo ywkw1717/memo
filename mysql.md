@@ -24,3 +24,14 @@ desc テーブル名; // テーブルの構造表示
 select フィールド名 from テーブル名; // フィールド名の表示
 drop database データベース名; // データベースの削除
 ```
+
+## password change
+1. mysqldをstop
+```sh
+$ /etc/init.d/mysqld restart
+```
+2. --skip-grant-tables --user=rootというオプションつきで起動させる
+
+3. mysqlにて
+update user set authentication_string=PASSWORD("パスワード") where User='root';
+flush privileges;
