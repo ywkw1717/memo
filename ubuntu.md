@@ -8,3 +8,17 @@ ubuntuではそもそもrootのパスワードは設定されていないらし�
 `sudo passwd` で設定できる
 
 `sudo -i`でも管理者になれる（この場合はいつものパスワードでおｋ）
+
+## 日本語入力
+```sh
+$ sudo apt-get install ibus-mozc
+```
+
+再起動
+
+```sh
+$ killall ibus-daemon
+$ ibus-daemon -d -x &
+```
+
+Ubuntuの設定でMozcを追加
