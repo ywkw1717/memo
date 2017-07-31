@@ -22,3 +22,7 @@ $ ibus-daemon -d -x &
 ```
 
 Ubuntuの設定でMozcを追加
+
+<b>※ これでもダメな場合(REMnuxは無理だった)</b>
+
+[http://viva-linux.jp/linux-japanese-garbled-square-232](http://viva-linux.jp/linux-japanese-garbled-square-232)
