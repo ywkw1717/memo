@@ -10,6 +10,8 @@ $ jd-gui
 
 apk studio でビルドしてから↓ で署名
 
+Passphraseはandroid
+
 Generate keystore
 ```sh
 $ keytool -genkey -v -keystore debug.keystore -alias androiddebugkey -keyalg RSA -validity 10000 -dname "CN=Android Debug,O=Android,C=US"
@@ -18,6 +20,8 @@ $ keytool -genkey -v -keystore debug.keystore -alias androiddebugkey -keyalg RSA
 署名には` -sigalg SHA1withRSA -digestalg SHA1`が必要らしい
 
 [http://qiita.com/hishida/items/8ab56f4780fbfaf4811f#comment-08a24c55bd18bf125c38](http://qiita.com/hishida/items/8ab56f4780fbfaf4811f#comment-08a24c55bd18bf125c38)
+
+Passphraseはandroid
 
 ```sh
 $ jarsigner -keystore debug.keystore -verbose HelloWorld-release-signed.apk androiddebugkey -sigalg SHA1withRSA -digestalg SHA1
