@@ -3,3 +3,6 @@
 $ sudo apt-get install gdb-arm-none-eabi
 ```
 arm-none-eabi-objdump とかもこれで入る
+
+BEQ -> 0A
+BNE -> 1A
