@@ -55,7 +55,7 @@ Finally, it become able to start.
 
 3. Copy "python.cfg" to %IDADIR%\cfg
 
-But happend error 'can not load file`.
+But happend error `can not load file`.
 
 I changed python version 2.7.13 -> 2.7
 
