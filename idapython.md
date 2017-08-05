@@ -30,11 +30,13 @@ First,
 $ objdump -sFD idaq.exe > hoge.dis
 ```
 
+![place of rewrite](http://i.imgur.com/IOAeeYh.png)
+
+This place is rewrite point!
+
 ```
 4119e8:	74 1f                	je     0x411a09 (file offset: 0x11209)
 ```
-
-This place is rewrite point!
 
 I rewrote `741f` -> `751f`.
 
