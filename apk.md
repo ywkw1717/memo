@@ -47,3 +47,7 @@ $ jarsigner -verify HelloWorld-release-signed.apk
   - com.koushikdutta.superuser
   - com.zachspong.temprootremovejb
   - com.ramdroid.appquarantine
+
+- /system/bin/su や /system/xbin/su など、suの有無
+
+- idコマンドを実行してuidが０かどうか、(root)が含まれているかどうか
