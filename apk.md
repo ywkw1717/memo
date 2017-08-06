@@ -34,3 +34,8 @@ $ jarsigner -verify HelloWorld-release-signed.apk
 
 ## Genymotion
 `Genymotion-ARM-Translation_v1.1`をドラックアンドドロップしてからapkファイルをドラックアンドドロップする必要がある
+
+## root検知手法
+- /system/app/Superuser.apkの有無
+
+- ro.build.tagsがtest-keysかどうか
