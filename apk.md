@@ -51,3 +51,16 @@ $ jarsigner -verify HelloWorld-release-signed.apk
 - /system/bin/su や /system/xbin/su など、suの有無
 
 - idコマンドを実行してuidが０かどうか、(root)が含まれているかどうか
+
+- busyboxコマンドの実行
+
+- default.propの値のチェック
+  - ro.secure=0
+  - ro.allow.mock.location=1
+  - ro.debuggable=1
+  - persist.sys.usb.config=adb
+
+### [reference]
+[https://blog.netspi.com/android-root-detection-techniques/](https://blog.netspi.com/android-root-detection-techniques/)
+
+[http://minkara.carview.co.jp/userid/2500523/blog/36484980/](http://minkara.carview.co.jp/userid/2500523/blog/36484980/)
