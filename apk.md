@@ -39,3 +39,11 @@ $ jarsigner -verify HelloWorld-release-signed.apk
 - /system/app/Superuser.apkの有無
 
 - ro.build.tagsがtest-keysかどうか
+
+- 特定のパッケージの有無
+  - com.noshufou.android.su
+  - com.thirdparty.superuser
+  - eu.chainfire.supersu
+  - com.koushikdutta.superuser
+  - com.zachspong.temprootremovejb
+  - com.ramdroid.appquarantine
