@@ -4,8 +4,9 @@ $ sudo apt-get install gdb-arm-none-eabi
 ```
 arm-none-eabi-objdump とかもこれで入る
 
-BEQ -> 0A
-BNE -> 1A
-
-BLE -> DA より小さいか等しい
-BGT -> CA より大きい
+|命令|機械語|
+|:--:|:--:|
+|BEQ|0A|
+|BNE|1A|
+|BLE(より小さいか等しい)|DA|
+|BGT(より大きい)|CA|
