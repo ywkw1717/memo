@@ -35,6 +35,17 @@ $ jarsigner -verify HelloWorld-release-signed.apk
 ## Genymotion
 `Genymotion-ARM-Translation_v1.1`をドラックアンドドロップしてからapkファイルをドラックアンドドロップする必要がある
 
+
+## Apkstudio Install
+```sh
+$ sudo apt-get install qt5-default qt5-make
+$ git clone https://github.com/vaibhavpandeyvpz/apkstudio.git
+$ cd apkstudio
+$ lrelease res/lang/en.ts
+$ qmake apkstudio.pro
+$ make
+```
+
 ## root検知手法
 - /system/app/Superuser.apkの有無
 
