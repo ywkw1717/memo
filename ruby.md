@@ -24,3 +24,6 @@ $ make
 $ make install
 ```
 PATHを通しておわり
+
+## PDF作成
+[Prawn](https://github.com/prawnpdf/prawn)というgem
