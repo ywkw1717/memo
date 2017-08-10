@@ -26,3 +26,14 @@ Ubuntuの設定でMozcを追加
 <b>※ これでもダメな場合(REMnuxは無理だった)</b>
 
 [http://viva-linux.jp/linux-japanese-garbled-square-232](http://viva-linux.jp/linux-japanese-garbled-square-232)
+
+## apt-file
+```sh
+$ sudo apt-get install apt-file
+```
+
+```sh
+$ sudo apt-file search HOGE
+```
+
+apt-cache search と一緒？
