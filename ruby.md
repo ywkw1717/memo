@@ -27,3 +27,7 @@ PATHを通しておわり
 
 ## PDF作成
 [Prawn](https://github.com/prawnpdf/prawn)というgem
+
+[http://takuya-1st.hatenablog.jp/entry/2015/01/18/223308](http://takuya-1st.hatenablog.jp/entry/2015/01/18/223308)
+
+[http://prawnpdf.org/manual.pdf](http://prawnpdf.org/manual.pdf)
