@@ -26,3 +26,6 @@ $ sudo mv android-ndk-r10d /usr/local
 $ export ANDROID_NDK_HOME=/usr/local/android-ndk-r10d
 $ export PATH=${PATH}:$ANDROID_NDK_HOME
 ```
+
+## About "update project" command
+[https://askubuntu.com/questions/906942/android-update-project-path-target-android-25-on-ubuntu-16-04](https://askubuntu.com/questions/906942/android-update-project-path-target-android-25-on-ubuntu-16-04)
