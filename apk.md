@@ -75,3 +75,9 @@ $ make
 [https://blog.netspi.com/android-root-detection-techniques/](https://blog.netspi.com/android-root-detection-techniques/)
 
 [http://minkara.carview.co.jp/userid/2500523/blog/36484980/](http://minkara.carview.co.jp/userid/2500523/blog/36484980/)
+
+
+## 端末のABIの特定
+```sh
+$ getprop |grep cpu
+```
