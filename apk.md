@@ -81,3 +81,9 @@ $ make
 ```sh
 $ getprop |grep cpu
 ```
+
+## BlueStacks
+Genymotionはx86なので、arm製のアプリはこっちで動かす
+
+### root化
+Bluestacks easyとかいうのを使うより、[https://www.youtube.com/watch?v=HHPLXNzkVyw](https://www.youtube.com/watch?v=HHPLXNzkVyw) こっちでやったほうが簡単だし上手く行く
