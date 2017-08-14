@@ -87,3 +87,14 @@ Genymotionはx86なので、arm製のアプリはこっちで動かす
 
 ### root化
 Bluestacks easyとかいうのを使うより、[https://www.youtube.com/watch?v=HHPLXNzkVyw](https://www.youtube.com/watch?v=HHPLXNzkVyw) こっちでやったほうが簡単だし上手く行く
+
+
+## adbでviがバグる現象
+puttyを使う方法がネット上で多かったけど、BlueStacksでは上手く動かなかった。なのでpowershellを使う。
+
+powershellからadbを使うとバグが起きない、神
+
+## Cheat Engine
+[インストールと使い方](http://blog.livedoor.jp/kiyopen/archives/52368327.html)
+
+確か、署名なしドライバをインストールできないとか言われて、UEFIのセキュアブートを無効にしたり、いろいろやることがあった。
