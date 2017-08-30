@@ -19,35 +19,6 @@ So I accessed [https://out7.hex-rays.com/files/idademo69_windows.exe](https://ou
 
 I can get 6.9.0 version :)
 
-But this version is already expired. It is necessary to be usable.
-
-## Rewrite the binary of IDA Demo
-I referred to this [site](http://kumakichi.github.io/crack-ida.html). But this site used 6.8 version. Therefore, I did my best.
-
-First,
-
-```sh
-$ objdump -sFD idaq.exe > hoge.dis
-```
-
-![place of rewrite](http://i.imgur.com/IOAeeYh.png)
-
-This place is rewrite point!
-
-```
-4119e8:	74 1f                	je     0x411a09 (file offset: 0x11209)
-```
-
-I rewrote `741f` -> `751f`.
-
-This place is changed.
-
-```
-4119e8:	75 1f                	jne     0x411a09 (file offset: 0x11209)
-```
-
-Finally, it become able to start.
-
 ## Install idapython in IDA Demo
 1. Copy the whole "python" directory to %IDADIR%
 
