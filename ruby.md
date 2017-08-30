@@ -36,8 +36,10 @@ PATHを通しておわり
 ## rbenvのupdate
 2.4.1を入れたかったが、`rbenv install --list`で、一覧になかった
 
+```shell
 $ sudo apt-get install ruby-build
 $ mkdir -p "$(rbenv root)/plugins"
 $ git clone https://github.com/rkh/rbenv-update.git "$(rbenv root)/plugins/rbenv-update"
 $ rbenv update
 $ rbenv install 2.4.1
+```
