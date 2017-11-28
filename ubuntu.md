@@ -37,3 +37,15 @@ $ sudo apt-file search HOGE
 ```
 
 apt-cache search と一緒？
+
+## gnome-terminalのタブ色変更
+```sh
+$ touch ~/.config/gtk-3.0/gtk.css
+```
+
+gtk.css
+```css
+TerminalWindow .notebook tab:active {
+  background-color: #def;
+}
+```
