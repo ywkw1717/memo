@@ -13,6 +13,7 @@ testのテーブルがないっぽいので、作る必要がある
 $ ./bin/rails db:test:load ( schema.rb ファイルを基にtest環境のDBを構築 )
 ```
 
+(Rails5からはrakeではなくrailsコマンドでできるようになっている)
 
 他にもいろいろある
 
