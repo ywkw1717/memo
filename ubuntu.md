@@ -49,3 +49,14 @@ TerminalWindow .notebook tab:active {
   background-color: #def;
 }
 ```
+
+## GitHubのSSHでPermission deniedになる問題
+```
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+```
+
+今回の場合、sshdが自動起動になっていなかったことが原因っぽい
