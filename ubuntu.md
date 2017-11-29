@@ -59,4 +59,11 @@ Please make sure you have the correct access rights
 and the repository exists.
 ```
 
-今回の場合、sshdが自動起動になっていなかったことが原因っぽい
+今回の場合、sshdが自動起動になっていなかったことが原因？→自動起動にしてもダメっぽい
+
+とりあえず、以下で直る
+
+```
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_bitbucket_nowhere_rsa
+```
