@@ -1,4 +1,4 @@
-About plt
+## About plt
 ```
 セクション .plt の逆アセンブル:
 
@@ -19,4 +19,7 @@ About plt
  80485ab:	e9 d0 ff ff ff       	jmp    8048580 <_init+0x28>
 ```
 
-[https://ledyba.org/2014/06/13093609.php](https://ledyba.org/2014/06/13093609.php)
+### 参考
+
+- [https://ledyba.org/2014/06/13093609.php](https://ledyba.org/2014/06/13093609.php)
+- [http://tkmr.hatenablog.com/entry/2017/02/28/030528](http://tkmr.hatenablog.com/entry/2017/02/28/030528)
