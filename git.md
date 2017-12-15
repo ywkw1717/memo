@@ -60,3 +60,4 @@ git push -f origin master
 ## command
 - git branch --contain <commit hash>
 - git show-branch <commit hash>
+- git log -p <file name>
