@@ -61,3 +61,22 @@ git push -f origin master
 - git branch --contain <commit hash>
 - git show-branch <commit hash>
 - git log -p <file name>
+
+
+## GitHub上に消したリポジトリが残ってしまっている場合
+```sh
+git push origin :BRANCH_NAME
+```
+
+## コミットログの修正
+```sh
+git rebase -i HEAD~2
+```
+とかやるとエディタが起動するので、変更したいコミットをpickからeditに変更して保存
+
+その後
+```sh
+git commit --amend --author="yyy <y.w.k.w.1717@gmail.com>"
+git rebase --continue
+```
+[http://d.hatena.ne.jp/naga_sawa/20110119/1295420861](http://d.hatena.ne.jp/naga_sawa/20110119/1295420861)
